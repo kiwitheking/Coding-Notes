@@ -37,3 +37,11 @@ Return Value:	A Number, representing a number from 0 up to but not including 1
 Math.floor((Math.random() * 100) + 1);
 ```
 return value from 1 to 100
+
+# indexOf()
+Syntax : string.indexOf(searchvalue, start)  
+```js
+var str = "Hello world, welcome to the universe.";
+var n = str.indexOf("we", 5);
+```
+Looking for we started 5th index
