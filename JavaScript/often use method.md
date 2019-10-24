@@ -45,3 +45,26 @@ var str = "Hello world, welcome to the universe.";
 var n = str.indexOf("we", 5);
 ```
 Looking for we started 5th index
+
+# Destructuring
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+```
+[a, b] = [10, 20];
+
+console.log(a);
+// expected output: 10
+
+console.log(b);
+// expected output: 20
+
+[a, b, ...rest] = [10, 20, 30, 40, 50];
+
+console.log(rest);
+// expected output: [30,40,50]
+
+var o = {p: 42, q: true};
+var {p: foo, q: bar} = o;
+ 
+console.log(foo); // 42 
+console.log(bar); // true
+```
